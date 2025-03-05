@@ -129,49 +129,26 @@ nav a{
 h1{font-size: 20px;}
 }
 
-
-
-
-@media( max-width:768px) {.encabezado {
-
-    background-color: cornflowerblue;
-    
+@media ( max-width:500px) {.pack {
+    background-color: rgb(240, 255, 240);
+flex-direction: column;
 }
-
 nav a{
     color:rgb(13, 13, 13);
     text-decoration: none;
     font-size: 16px;
-    margin: 5px;
+    margin: 3px;
     display: flex;
     flex-direction: column;
     background-color: orangered;}
 
-    main{display: flex;
-        flex-direction: column;}
-        
-footer{flex-direction: column;
-justify-content: space-between;
-}
-.comprar {
-font-size: 8px;
-    
-flex-direction: column;
-justify-content: space-between;}
 
-.formularios {
-    margin:5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-{img width: 100px;
-height: 100px;
-
-}
-
+h1{font-size: 20px;}
 }
 
 
-    
+
+
+
+
+
